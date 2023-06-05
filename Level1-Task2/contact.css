@@ -1,0 +1,29 @@
+body{
+    border-top: 100px solid;
+    border-color: black;
+    border-bottom: 30px solid;
+    border-color: black;
+
+}
+
+.container{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#butt{
+    color:white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+#fname, #lname, #sub, #msg, #mail{
+    background-color:whitesmoke;
+}
+
+.logo{
+    text-align:center;
+    margin:40px;
+}

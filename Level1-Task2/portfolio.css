@@ -1,0 +1,14 @@
+body{
+    border-top: 100px solid;
+    border-color: black;
+    border-bottom: 30px solid;
+}
+
+.container{
+    margin-left: 100px;
+}
+
+.logo{
+    text-align:center;
+    margin:40px;
+}

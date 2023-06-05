@@ -1,0 +1,27 @@
+body{
+    border-top:100px solid;
+    border-color:black;
+    border-bottom:30px solid;
+}
+
+.links{
+    text-align:center;
+    margin-bottom:90px;
+}
+
+h1{
+    margin-bottom:50px;
+}
+
+.logo{
+    text-align:center;
+    margin:40px;
+}
+
+#port{
+    margin-left: 550px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+}

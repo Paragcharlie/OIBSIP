@@ -1,0 +1,21 @@
+body{
+    border-top: 100px solid;
+    border-color: black;
+    border-bottom: 30px solid;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.logo{
+    text-align:center;
+    margin:40px;
+}
+p{
+    font-size:large;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 180px;
+}
