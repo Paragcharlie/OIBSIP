@@ -1,0 +1,131 @@
+
+
+.header .head .nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.header .head .nav a:hover{
+    color: orange;
+}
+
+.header a button{
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.header .headimg{
+    margin-left: 4rem;
+
+}
+
+.header .headcontent h1, label{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    font-size: 40px;
+}
+
+.header .headcontent label{
+    font-size: 25px;
+    color: gray;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+.header .search input{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    width: 65%;
+    height: 4rem;
+    font-size: 18px;
+    color:black;
+    border-color: darkorange;
+    outline: none;
+    
+    
+}
+
+.header .search button{
+    color:white;
+    background-color:darkorange;
+    width: 15%;
+    height: 4.1rem;
+    border: none;
+}
+
+.header .cities h3{
+    color:gray;
+}
+
+.header .cities .cblack{
+    color:rgb(96, 93, 93);
+    text-decoration: none;
+}
+
+.header .cities .cgray{
+    color:gray;
+    text-decoration: none;
+}
+
+.header .cities{
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.second .secondcontent h1{
+    font-size: 3rem;
+    color: black;
+    margin-left: 10rem;
+    margin-top: 7rem;
+}
+
+.second .secondcontent p{
+    color: gray;
+    margin-left: 10rem;
+    font-size: larger;
+}
+
+.second{
+    display: flex;
+}
+
+.second img{
+    margin-left: 2rem;
+}
+
+
+
+.footer{
+    background-color: black;
+}
+
+.footer .foot1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+
+.footer .foot1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .foot1 ul{
+    list-style: none;
+}
+
+.footer .foot2{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+
+.social{
+    text-align: center;
+}

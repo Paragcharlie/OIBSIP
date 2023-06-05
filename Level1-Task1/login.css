@@ -1,0 +1,49 @@
+.header p a{
+    text-decoration: none;
+    color: orange;
+}
+
+.header{
+    display: flex;
+    
+    
+}
+h1{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.header .text{
+    margin-top: 5rem;
+}
+
+input{
+    border-color: gray;
+    color: black;
+    width:35%;
+    height:4rem;
+    margin-left: 20rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+button{
+    width:37.7%;
+    background-color: orange;
+    color: white;
+    height:3.2rem;
+    margin-left: 20rem;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+p{
+    color:gray;
+    margin-left: 20rem;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+}
