@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TempConvert</title>
+  <link rel="stylesheet" href="web.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+</head>
+<body>
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Temperature Conversion</span>
+    </div>
+  </nav>
+
+  <div class="form">
+
+    <div class="inp">
+
+      <form>
+
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Enter Temperature</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid input.
+          </div>
+          
+        
+          <br>
+  
+        
+  
+        </div>
+
+        
+    
+      </form>
+
+      <select class="form-select" aria-label="Default select example" id="sel">
+        <option selected>Select Temperature Unit</option>
+        <option value="1">Celsius</option>
+        <option value="2">Farenheit</option>
+      </select>
+
+      <br><br>
+
+      <div class="submit">
+
+        <button type="button" class="btn btn-secondary" id="sub" onclick="convert()">Submit</button>
+    
+      </div>
+
+    </div>
+
+    
+
+    <div class="out">
+
+      <label for="validationCustom06">Output</label><br><br>
+
+      <input type="text" class="form-control" id="validationCustom06" required>
+  
+    </div>
+
+    
+    
+
+  </div>
+
+  
+
+
+  <script src="web.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
